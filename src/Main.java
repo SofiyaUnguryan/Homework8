@@ -57,7 +57,7 @@ public class Main {
         System.out.println("Задача 3");
         System.out.println("Первый массив");
         int[] gifts = {1, 2, 3};
-        for (int i = 2; i <= gifts.length; i -= 1) {
+        for (int i = gifts.length - 1; i >= 0; i -= 1) {
             if (i == 0) {
                 System.out.print(gifts[i]);
                 break;
@@ -67,7 +67,7 @@ public class Main {
         System.out.println();
         System.out.println("Второй массив");
         double[] numbers = {1.57, 7.654, 9.986};
-        for (int i = 2; i <= numbers.length; i -= 1) {
+        for (int i = numbers.length - 1; i >= 0 ; i -= 1) {
             if (i == 0) {
                 System.out.print(numbers[i]);
                 break;
@@ -77,7 +77,7 @@ public class Main {
         System.out.println();
         System.out.println("Третий массив");
         int[] squirrelsWeight = {450, 370, 567, 398};
-        for (int i = 3; i <= squirrelsWeight.length; i -= 1) {
+        for (int i = squirrelsWeight.length - 1; i >= 0 ; i -= 1) {
             if (i == 0) {
                 System.out.print(squirrelsWeight[i]);
                 break;
